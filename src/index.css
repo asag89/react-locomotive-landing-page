@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar-track {
+    display: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+}
