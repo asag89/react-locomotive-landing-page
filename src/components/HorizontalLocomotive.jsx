@@ -18,18 +18,13 @@ const Section = styled.section`
 
   .slider{
     width: auto;
-  position: absolute;
-  padding-left: 40px;
-  min-height: 100vh;
-
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+    position: absolute;
+    padding-left: 40px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
   }
-
-  @media(max-width: 890px) {
-
-    }
 `;
 
 const HorizontalLocomotive = () => {
